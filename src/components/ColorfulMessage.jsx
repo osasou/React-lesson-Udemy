@@ -1,6 +1,8 @@
 import React from "react";
 
 const ColorfulMessage = (props) => {
+  // 親コンポーネントが再レンダリングされたら，子も再レンダリングされるよー
+  console.log("カラフル最初");
   // 分割代入してあげると毎回props.hogeと書かなくてよくなるよ
   const { color, message, children } = props;
   const contentStyle = {
