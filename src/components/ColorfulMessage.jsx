@@ -1,6 +1,6 @@
 import React from "react";
 
-const ColorfulMessage = (props) => {
+export const ColorfulMessage = (props) => {
   // 親コンポーネントが再レンダリングされたら，子も再レンダリングされるよー
   console.log("カラフル最初");
   // 分割代入してあげると毎回props.hogeと書かなくてよくなるよ
@@ -24,4 +24,4 @@ const ColorfulMessage = (props) => {
   );
 };
 
-export default ColorfulMessage;
+// export default ColorfulMessage;
